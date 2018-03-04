@@ -1,10 +1,11 @@
 {
-  "name": "spheres",
-  "license": "ISC",
+  "name": "caffeine",
+  "license": "Unlicense",
   "author": "",
   "version": "1.0.0",
   "scripts": {
-    "start": "budo -H 0.0.0.0 main.js:bundle.js --live -- -t glslify"
+    "start": "budo -H 0.0.0.0 main.js:bundle.js --live -- -t glslify",
+    "build": "browserify main.js -t glslify -o bundle.js"
   },
   "keywords": [],
   "main": "index.js",
