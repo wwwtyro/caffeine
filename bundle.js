@@ -98,7 +98,6 @@ function loop() {
   requestAnimationFrame(loop);
 }
 
-
 requestAnimationFrame(loop);
 
 },{"./renderer":32,"dat.gui":2,"file-saver":3,"trackball-controller":31}],2:[function(require,module,exports){
