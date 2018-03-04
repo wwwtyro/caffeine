@@ -6,7 +6,7 @@
   "scripts": {
     "start": "budo -H 0.0.0.0 main.js:bundle.js --live -- -t glslify",
     "build": "browserify main.js -t glslify -o bundle.js",
-    "pages": "git diff --quiet && git checkout gh-pages && git merge master -m 'gh-pages' && npm run build && git commit -am 'gh-pages' && git push && git checkout master"
+    "pages": "git diff --quiet && git checkout gh-pages && git merge master -m 'gh-pages' && npm run build && git commit -am 'gh-pages' || true && git push && git checkout master"
   },
   "keywords": [],
   "main": "index.js",
