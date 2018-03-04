@@ -1,7 +1,7 @@
 {
   "name": "caffeine",
   "license": "Unlicense",
-  "author": "",
+  "author": "Rye Terrell",
   "version": "1.0.0",
   "scripts": {
     "start": "budo -H 0.0.0.0 main.js:bundle.js --live -- -t glslify",
