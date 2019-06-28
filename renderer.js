@@ -14,7 +14,7 @@ module.exports = function(canvas) {
     canvas: canvas,
     extensions: ['OES_texture_float'],
     attributes: {
-      preserveDrawingBuffer: true,
+      preserveDrawingBuffer: false,
     },
   });
 
